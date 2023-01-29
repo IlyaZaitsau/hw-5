@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background: #e5e5e5;
+}
+
+.list {
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.list-name,
+.list-text {
+  text-align: center;
+  margin: 0;
+}
+
+.list-name {
+  padding: 35px 0 0 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+}
+
+.list-border {
+  width: 170px;
+  border: 1px solid #EC7979;
+  margin: 54px auto 0 auto;
+}
+
+.list-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #86878B;
+  margin-top: 40px;
+}
+
+.section {
+  margin: 59px 170px 0 170px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.row:hover {
+  filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
+  transform: translateY(-20px);
+  border: 2px solid #F5F5F5;
+}
+
+.column {
+  width: 370px;
+}
+
+.column-title {
+  background: #333333;
+}
+
+.col-title {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.col-title h2 {
+  margin: 0;
+  padding: 13px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #FFFFFF;
+}
+
+.col-price {
+  border-top: 2px solid #e5e5e5;
+  border-bottom: 2px solid #e5e5e5;
+  text-align: center;
+  padding: 27px;
+}
+
+.col-price p {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.col-link {
+  text-align: center;
+  padding: 14px;
+}
+
+.link-info {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.list-item {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: #FFFFFF;
+}
+
+.item {
+  border: 2px solid #F5F5F5;
+  text-align: center;
+  padding: 14px;
+}
+
+.item-link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #86878B;
+}
+
+.image {
+  height: 500px;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  height: 256px;
+}
